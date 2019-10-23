@@ -1,0 +1,38 @@
+.category .main-content .header-row {
+  padding: 1rem 0;
+  color: #fff;
+  background-color: #fbb845;
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem; }
+  .category .main-content .header-row ul {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    text-transform: capitalize; }
+  .category .main-content .header-row .small-title {
+    color: #fff;
+    text-align: center; }
+  .category .main-content .header-row .col.tags-parent {
+    background-color: #fff;
+    -webkit-box-shadow: 0 13px #fff, 0 -13px #fff;
+            box-shadow: 0 13px #fff, 0 -13px #fff; }
+  .category .main-content .header-row .tags .chip {
+    margin: 0 6px;
+    height: 26px;
+    line-height: 27px;
+    background-color: #f1f5f8;
+    text-align: center;
+    width: 100%;
+    -webkit-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+    padding: 0; }
+    .category .main-content .header-row .tags .chip:hover {
+      background-color: #fbb845;
+      color: #fff; }
+    .category .main-content .header-row .tags .chip.active {
+      background-color: #fbb845;
+      color: #fff; }
